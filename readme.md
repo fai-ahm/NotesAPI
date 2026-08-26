@@ -7,9 +7,7 @@ A REST API for managing personal notes (CRUD), built with ASP.NET Core, Entity F
 This project was built as a hands-on learning exercise to gain practical experience 
 with C# and the .NET ecosystem. I worked through it incrementally over a few days, 
 building each layer (models, database, API endpoints) step by step to understand 
-how the pieces fit together, coming from a primary background in mobile and 
-frontend development (React Native, Flutter, React).
-
+how the pieces fit together.
 ## Tech Stack
 
 - ASP.NET Core (.NET 10)
