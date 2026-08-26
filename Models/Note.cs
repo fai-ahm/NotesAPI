@@ -1,4 +1,4 @@
-namespace Learning1.Models
+namespace NotesAPI.Models
 {
     public class Note
     {

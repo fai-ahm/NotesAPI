@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
-using Learning1.Models;
+using NotesAPI.Models;
 
-namespace Learning1.Data
+namespace NotesAPI.Data
 {
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public DbSet<Note> Notes { get; set; }
+
+
     }
 }

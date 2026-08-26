@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cz3CZANB/dA=",
+  "dgSpecHash": "7At78oX3L0c=",
   "success": true,
   "projectFilePath": "/Users/four/Learning1/Learning1.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/four/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.11/microsoft.entityframeworkcore.relational.10.0.11.nupkg.sha512",
     "/Users/four/.nuget/packages/microsoft.entityframeworkcore.sqlite/10.0.11/microsoft.entityframeworkcore.sqlite.10.0.11.nupkg.sha512",
     "/Users/four/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/10.0.11/microsoft.entityframeworkcore.sqlite.core.10.0.11.nupkg.sha512",
+    "/Users/four/.nuget/packages/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
     "/Users/four/.nuget/packages/microsoft.extensions.dependencymodel/10.0.11/microsoft.extensions.dependencymodel.10.0.11.nupkg.sha512",
     "/Users/four/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512",
     "/Users/four/.nuget/packages/microsoft.visualstudio.solutionpersistence/1.0.52/microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
@@ -30,6 +31,10 @@
     "/Users/four/.nuget/packages/sqlitepclraw.core/2.1.12/sqlitepclraw.core.2.1.12.nupkg.sha512",
     "/Users/four/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.12/sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg.sha512",
     "/Users/four/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.12/sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg.sha512",
+    "/Users/four/.nuget/packages/swashbuckle.aspnetcore/10.2.3/swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "/Users/four/.nuget/packages/swashbuckle.aspnetcore.swagger/10.2.3/swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "/Users/four/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.2.3/swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "/Users/four/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.2.3/swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
     "/Users/four/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/Users/four/.nuget/packages/system.composition/9.0.0/system.composition.9.0.0.nupkg.sha512",
     "/Users/four/.nuget/packages/system.composition.attributedmodel/9.0.0/system.composition.attributedmodel.9.0.0.nupkg.sha512",
