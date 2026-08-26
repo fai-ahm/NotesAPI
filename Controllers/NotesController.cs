@@ -14,10 +14,65 @@ namespace NotesAPI.Controllers
         {
             _context = context;
         }
-         [HttpGet]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<Note>>> GetNotes()
         {
             return await _context.Notes.ToListAsync();
+        }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Note>> GetNote(int id)
+        {
+            var note = await _context.Notes.FindAsync(id);
+
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            return note;
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Note>> CreateNote(Note note)
+        {
+            _context.Notes.Add(note);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetNote), new { id = note.Id }, note);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateNote(int id, Note updatedNote)
+        {
+            var note = await _context.Notes.FindAsync(id);
+
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            note.Title = updatedNote.Title;
+            note.Content = updatedNote.Content;
+
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteNote(int id)
+        {
+            var note = await _context.Notes.FindAsync(id);
+
+            if (note == null)
+            {
+                return NotFound();
+            }
+
+            _context.Notes.Remove(note);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
     }
